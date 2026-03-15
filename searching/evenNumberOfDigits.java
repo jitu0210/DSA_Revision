@@ -1,23 +1,16 @@
 public class evenNumberOfDigits {
+
+    // Q. Find the numbers of number that has even number of digits.
+
     public static void main(String[] args) {
-        int[] arr = {18,124,19,1764,98,1};
-        System.out.println(even(arr));
+        int[] arr = {18,124,9,1764,98,1};
+       
     }
-
-
     // Steps:
-    // 1. count the no. of digits
-    // 2. convert it into string and take the length
+    // 1. Count the number of digits.
+    // 2. Convert the number into String and take the length
 
-    static int even(int[] arr){
-
-        int count = 0;
-        for(int i = 0; i< arr.length; i++){
-            while (arr[i]>0) {
-                count++;
-                arr[i] = arr[i]/10;
-            }
-        }
-        return count;
+    static int countNumOfDigits(int[] arr){
+       
     }
 }
